@@ -36,6 +36,12 @@ $(document).ready(() => {
   $(".notifications").append(notificationBell);
   $(".card-header").append(ellipsesMenu);
   $(".card-header-time").append(dotDivider);
+  $(".read-more").prepend(expand);
+  $(".attachment-name").append(dotDivider);
+
+
+
+
 
   // === Window Resize Events ===
 
@@ -208,21 +214,28 @@ $(document).ready(() => {
 
   //Note for future: When we're doing grid view to put read more's in.
 
+  readMoreOnlyMobile = true;
+
   readMoreActivated = false;
   var trimmedText = [];
-  $(window).on('resize', () => {
+
+  if (readMoreOnlyMobile) {
+    $(window).on('resize', () => {
+      if ($(window).width() < 768) {
+        readMore();
+      }
+      if ($(window).width() > 768) {
+        removeReadMore();
+      }
+    });
     if ($(window).width() < 768) {
       readMore();
     }
     if ($(window).width() > 768) {
       removeReadMore();
     }
-  });
-  if ($(window).width() < 768) {
+  } else {
     readMore();
-  }
-  if ($(window).width() > 768) {
-    removeReadMore();
   }
 
   //FUTURE: This should be triggered when switching from Stream to Grid
@@ -259,7 +272,7 @@ $(document).ready(() => {
     trimmedText[$(this).attr('id')] = "";
   });
 
-//FUTURE: This should be triggered when switching from Grid to Stream View
+  //FUTURE: This should be triggered when switching from Grid to Stream View
   function removeReadMore() {
     if (readMoreActivated) {
       $.each($(".read-more"), function() {
@@ -273,9 +286,7 @@ $(document).ready(() => {
       readMoreActivated = false;
       trimmedText = [];
     }
-  }
-
-
+  } 
 
 });
 // end document.ready()
