@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>theicons.co/svg/ui-79</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="The-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v-1.5" transform="translate(-1344.000000, -2880.000000)" fill="#000000">
+            <g id="UI" transform="translate(96.000000, 2496.000000)">
+                <g id="Note-1" transform="translate(1248.000000, 384.000000)">
+                    <path d="M18,32.6736312 L18,8 C18,7.04663796 18.6729193,6.22580833 19.6077677,6.03883865 L39.6077677,2.03883865 C40.8453516,1.79132188 42,2.73790715 42,4 L42,12 C42,12.953362 41.3270807,13.7741917 40.3922323,13.9611614 L22,17.6396078 L22,39 C22,42.8659932 18.8659932,46 15,46 C11.1340068,46 8,42.8659932 8,39 C8,35.1340068 11.1340068,32 15,32 C16.0735973,32 17.0907446,32.241691 18,32.6736312 Z M18,39 C18,37.3431458 16.6568542,36 15,36 C13.3431458,36 12,37.3431458 12,39 C12,40.6568542 13.3431458,42 15,42 C16.6568542,42 18,40.6568542 18,39 Z M38,10.3582567 L38.0046191,6.43868398 L22,9.6384497 L22,13.5671997 L38,10.3582567 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

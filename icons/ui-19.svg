@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>theicons.co/svg/ui-19</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="The-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v-1.5" transform="translate(-288.000000, -2496.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="UI" transform="translate(96.000000, 2496.000000)">
+                <g id="Lightning" transform="translate(192.000000, 0.000000)">
+                    <path d="M26.0216204,11.2927965 L14.2540283,25 L20.0052198,25 C21.1069065,25 21.9996027,25.8982221 21.9991166,26.9970517 L21.994827,36.6944016 L33.7781982,23 L28.0030793,23 C26.8968092,23 26.0016606,22.1007946 26.0036921,21.0007621 L26.0216204,11.2927965 Z M30,19 L38.4627914,19 C40.6709194,19 41.2976138,20.3543859 39.854799,22.0341322 L21.9097324,42.9260434 C19.7504468,45.4399155 18,44.7986882 18,41.4731979 L18,29 L9.53720862,29 C7.32908056,29 6.7023862,27.6456141 8.14520105,25.9658678 L26.0902676,5.07395661 C28.2495532,2.56008447 30,3.20131182 30,6.52680213 L30,19 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
